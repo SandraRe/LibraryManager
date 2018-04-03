@@ -14,7 +14,7 @@ namespace LibraryData.Models
 
 
         [Required]
-        public string Descripton { get; set; }
+        public string Description { get; set; }
 
     }
 }

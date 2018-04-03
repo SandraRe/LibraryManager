@@ -23,7 +23,7 @@ namespace LibraryData.Models
 
 
         [Required]
-        public DateTime? CheckedIn  { get; set; }
+        public DateTime CheckedIn  { get; set; }
 
 
 
