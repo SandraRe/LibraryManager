@@ -84,7 +84,7 @@
     }
 
 #patrons {
-    background: url('/images/books.jpg') bottom left 15% no-repeat #555;
+    background: url('/images/patron.jpg') bottom left 15% no-repeat #555;
 }
 
 .branchInfo {
@@ -92,7 +92,7 @@
 }
 
 #branches {
-    background: url('/images/books.jpg') bottom left 15% no-repeat #555;
+    background: url('/images/bldg.jpg') bottom left 15% no-repeat #555;
 }
 
 #assets {
