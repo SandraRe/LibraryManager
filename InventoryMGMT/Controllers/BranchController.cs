@@ -9,9 +9,9 @@ namespace InventoryMGMT.Controllers
     public class BranchController: Controller
     {
 
-        private readonly LibraryBranchService _branchService;
+        private ILibraryBranch _branchService;
 
-        public BranchController(LibraryBranchService branchService)
+        public BranchController(ILibraryBranch branchService)
         {
             _branchService = branchService;
         }

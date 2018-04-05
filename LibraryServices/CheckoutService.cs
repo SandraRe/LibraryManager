@@ -161,7 +161,7 @@ namespace LibraryServices
             var now = DateTime.Now;
 
             var item = _context.LibraryAssets
-                .First(a => a.Id == id);
+                .FirstOrDefault(a => a.Id == id);
 
             _context.Update(item);
 

@@ -10,7 +10,7 @@ namespace LibraryServices
 {
     public class LibraryBranchService : ILibraryBranch
     {
-        private readonly LibraryContext _context;
+        private  LibraryContext _context;
 
         public LibraryBranchService(LibraryContext context)
         {

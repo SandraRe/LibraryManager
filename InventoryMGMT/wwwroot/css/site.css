@@ -49,6 +49,23 @@
     transition: .5s;
 }
 
+.branch-icon {
+    color: #777;
+    font-size: 40px;
+    padding: 24px;
+    -webkit-border-radius: 1100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+    vertical-align: middle;
+    width: 60px;
+    height: 60px;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+
 .icon-wrapper {
     display: table-cell;
 }
@@ -127,6 +144,7 @@
 .authorLabel {
     font-weight: bold;
     font-size: 1.3em;
+    font-size: 1.3em;
 }
 
 .titleLabel {
@@ -169,6 +187,12 @@
 
 .detailImage {
     width: 200px;
+    padding-bottom: 6px;
+}
+
+.branchImage {
+    width: 50px;
+    height: 50px;
     padding-bottom: 6px;
 }
 
